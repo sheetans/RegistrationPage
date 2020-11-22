@@ -19,7 +19,7 @@ export class ForgotpasswordComponent implements OnInit {
     this.forgotForm = this.formBuilder.group({
       password: ['', [Validators.required, Validators.minLength(6)]],
       confirmPassword: ['', Validators.required],
-      OTP : ['', Validators.required,Validators.minLength(6)],
+      OTP : ['', [Validators.required,Validators.minLength(6)]],
 
     },
       { validator: MustMatch('password', 'confirmPassword') }
