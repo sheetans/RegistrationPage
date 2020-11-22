@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "OnlineShopping"
+    }
+  },
+  "defaultProject": "OnlineShopping",
+  "cli": {
+    "analytics": "1eb0e58f-273f-426d-8e4f-e648f67c0691"
+  }
 }
